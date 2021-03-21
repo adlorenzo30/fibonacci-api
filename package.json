@@ -1,0 +1,28 @@
+{
+  "name": "fibonacci-api",
+  "version": "0.0.1",
+  "description": "This API receive and index \"n\" and return the Fibonacci value that corresponds to the given index",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adlorenzo30/fibonacci-api.git"
+  },
+  "author": "Alber Díaz <adlorenzo30@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adlorenzo30/fibonacci-api/issues"
+  },
+  "homepage": "https://github.com/adlorenzo30/fibonacci-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "jest-each": "^26.6.2"
+  }
+}
